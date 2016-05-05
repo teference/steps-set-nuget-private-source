@@ -1,1 +1,3 @@
-
+title: Set NuGet private source
+summary: |-
+  Sets specified NuGet private source to the NuGet source list for the next build.
