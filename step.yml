@@ -1,3 +1,22 @@
 title: Set NuGet private source
 summary: |-
   Sets specified NuGet private source to the NuGet source list for the next build.
+description: |-
+  Sets specified NuGet private source to the NuGet source list for the next build.
+website: https://github.com/teference/steps-set-nuget-private-source
+source_code_url: https://github.com/teference/steps-set-nuget-private-source
+support_url: https://github.com/teference/steps-set-nuget-private-source/issues
+source:
+  git: https://github.com/teference/steps-set-nuget-private-source.git
+host_os_tags:
+  - "osx-10.10"
+project_type_tags:
+  - ios
+  - android
+type_tags:
+  - build
+  - nuget
+  - xamarin
+  - ios
+  - android
+run_if ".IsCI"
