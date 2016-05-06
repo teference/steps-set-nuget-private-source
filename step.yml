@@ -41,11 +41,9 @@ inputs:
       summary: ""
       description: |
         UserName to be used when connecting to an authenticated source.
-      is_required: false
   - nuget_source_password:
     opts:
       title: "NuGet private source password"
       summary: ""
       description: |
         Password to be used when connecting to an authenticated source.
-      is_required: false
