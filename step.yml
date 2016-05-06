@@ -19,7 +19,7 @@ type_tags:
   - xamarin
   - ios
   - android
-run_if ".IsCI"
+run_if: ".IsCI"
 inputs:
   - nuget_source_name:
     opts:
